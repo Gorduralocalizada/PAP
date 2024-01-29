@@ -1,0 +1,56 @@
+/* Configurações gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Configurações do container de login */
+  .login-container {
+    max-width: 600px;
+    margin: 200px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000000;
+  }
+  
+  /* Configurações do título do formulário */
+  .login-container h1 {
+    text-align: center;
+    color: #4a4a4a;
+  }
+  
+  /* Configurações dos rótulos */
+  .login-container label {
+    display: block;
+    margin-top: 10px;
+    color: #4a4a4a;
+  }
+  
+  /* Configurações dos campos de texto e senha */
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 96.5%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Configurações do botão de envio */
+  .login-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  /* Configurações do botão de envio ao passar o mouse */
+  .login-container input[type="submit"]:hover {
+    background-color: #498f4b;
+  }

@@ -1,0 +1,60 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgrey;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 600px;
+    margin: 200px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #4CAF50;
+  }
+  
+  /* Title styles */
+  .container h1 {
+    text-align: center;
+    color: #4a4a4a;
+  }
+  
+  /* Subtitle styles */
+  .container h3 {
+    color: green;
+  }
+  
+  /* Form styles */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 96.5%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .form-group button:hover {
+    background-color: #45a049;
+  }

@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-if;
+    margin: 0;
+    padding: 0
+    background- #f2f2f2;
+  }
+  
+  .fade-in {
+    animation: fade-in 2s;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.header nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: color 0.5s;
+}
+
+.header nav a:hover {
+    color: rgb(30, 255, 0);
+}
+
+.header #usuario {
+    margin: 0;
+    font-size: 2rem;
+}
+  
+.pagamento {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.botao-pagamento {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .produtos {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+  }
+  
+  .produtos h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .produtos table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .produtos th,
+  .produtos td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .produtos th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .produtos a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .produtos a:hover {
+    color: rgb(0, 255, 81);
+  }
+  
+  .total {
+    text-align: right;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  
